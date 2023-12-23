@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bike repair shop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<link
+href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Sunflower:wght@300&display=swap"
+rel="stylesheet" />
+<!-- This is Eric Meyer's css rest -->
+<link rel="stylesheet" href="css-reset.css" />
+<!-- This is my css -->
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div class="container">
+<header>
+<!-- This is where the navbar goes, in the container, in the header -->
+<div class="logo">
+<a href="index.html"
+><img src="images/logo-roar-bikes.png" alt="bikes logo"
+/></a>
+</div>
+
+<nav>
+<div class="navbutton">
+<a href="#">Book Online</a>
+<div class="dropdown">
+<div class="navbutton"><a href="">Onsite Service</a></div>
+<div class="navbutton"><a href="">Parts Delivery</a></div>
+<div class="navbutton"><a href="">Request Callback</a></div>
+</div>
+</div>
+
+<div class="navbutton"><a href="#">About</a></div>
+
+<div class="navbutton"><a href="contact.html">Contact</a></div>
+</nav>
+</header>
+
+<!-- CHECKBOXES WHICH INCLUDE JAVASCRIPT -->
+
+<input type="checkbox" id="myCheckBox" />
+<label for="myCheckBox">Subscribe</label><br /><br />
+
+<input type="radio" id="visaButton" name="card" />
+<label for="visaButton">Visa</label><br />
+<input type="radio" id="masterCardButton" name="card" />
+<label for="masterCardButton">Mastercard</label><br />
+<input type="radio" id="payPalButton" name="card" />
+<label for="payPalButton">Paypal</label><br />
+
+<button type="submit" id="mySubmit">Submit</button>
+
+<p id="submitResult"></p>
+<p id="paymentResult"></p>
+
+<!-- END OF NEW CHECKBOXES INVOLVING JAVASCRIPT -->
+<div class="main2">
+<h1>Contact Us</h1>
+<p>For all your repair needs, to contact us to see how we can help.</p>
+
+<form action="" method="post">
+<div class="inputwrapper">
+<label for="name">First name</label>
+<input type="text" name="name" id="name" placeholder="firstname" />
+</div>
+
+<div class="inputwrapper">
+<label for="email">Email</label>
+<input
+type="email"
+name="email"
+id="email"
+placeholder="benraddon87@gmail.com" />
+</div>
+
+<div class="inputwrapper">
+<textarea
+name="message"
+id="message"
+cols="100"
+rows="5"
+placeholder="Please write your message here."></textarea
+><br />
+
+<label for="email-subscribe">Sign Up for Email newsletters</label>
+<input
+type="checkbox"
+name="email-subscribe"
+id="email-subscribe"
+value="yes-sign-up"
+checked />
+</div>
+
+<p>How would you like to be contacted?</p>
+<input type="radio" name="contact preference" id="Phone" value="Phone" />
+<label for="Phone">Phone</label>
+<input type="radio" name="contact preference" id="Email" value="Email" />
+<label for="Email">Email</label><br />
+
+<div class="inputwrapper">
+<select name="country" id="country">
+<option value="Bristol">Bristol</option>
+<option value="Spain">Spain</option>
+<option value="Cardiff">Cardiff</option>
+<option value="Whoopsies">Whoopsies</option>
+<option value="Somewhere">Somewhere</option>
+</select>
+</div>
+
+<input type="submit" value="fire away" class="mybutton" />
+</form>
+</div>
+
+<div class="cards"></div>
+<div class="testimonials">
+<div class="tbox">
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quam consequuntur
+magni nihil architecto impedit animi laudantium blanditiis, sit ad? Ullam dolor
+laboriosam iste repellendus corrupti suscipit vel maiores voluptate?
+</p>
+<p>yes</p>
+</div>
+
+<div class="tbox">
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quam consequuntur
+magni nihil architecto impedit animi laudantium blanditiis, sit ad? Ullam dolor
+laboriosam iste repellendus corrupti suscipit vel maiores voluptate?
+</p>
+<p>yes</p>
+</div>
+
+<div class="tbox">
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quam consequuntur
+magni nihil architecto impedit animi laudantium blanditiis, sit ad? Ullam dolor
+laboriosam iste repellendus corrupti suscipit vel maiores voluptate?
+</p>
+<p>yes</p>
+</div>
+
+<div class="tbox">
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quam consequuntur
+magni nihil architecto impedit animi laudantium blanditiis, sit ad? Ullam dolor
+laboriosam iste repellendus corrupti suscipit vel maiores voluptate?
+</p>
+<p>yes</p>
+</div>
+
+<div class="tbox">
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quam consequuntur
+magni nihil architecto impedit animi laudantium blanditiis, sit ad? Ullam dolor
+laboriosam iste repellendus corrupti suscipit vel maiores voluptate?
+</p>
+<p>yes</p>
+</div>
+<div class="tbox">
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quam consequuntur
+magni nihil architecto impedit animi laudantium blanditiis, sit ad? Ullam dolor
+laboriosam iste repellendus corrupti suscipit vel maiores voluptate?
+</p>
+<p>yes</p>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
