@@ -1,0 +1,17 @@
+body {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+background-color: aqua;
+}
+#myButton {
+font-size: 3em;
+padding: 5px 25px;
+border-radius: 5px;
+cursor: pointer;
+}
+#myButton:hover {
+background-color: grey;
+}
+#myLabels {
+font-size: 3em;
+}
