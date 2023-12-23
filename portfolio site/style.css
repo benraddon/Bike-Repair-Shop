@@ -1,0 +1,166 @@
+body {
+  background-image: linear-gradient(
+      rgba(30, 227, 115, 0.75),
+      rgba(100, 255, 115, 0.261)
+    ),
+    url(images/VideoCapture_20230928-151522.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header-container {
+  background-color: darkgrey;
+  min-height: 100px;
+  margin-bottom: 50px;
+  position: fixed;
+  width: 100%;
+}
+header {
+  max-width: 1025px;
+  /*background-color: rgb(105, 155, 155);*/
+  min-height: 100px;
+  margin: 0 auto; /*THIS CAN ALSO BE MARGIN LEFT AND RIGHT AUTO*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sunflower", sans-serif;
+}
+.highlight {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: rgb(66, 148, 66);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.mybutton {
+  padding: 10px 25px;
+  margin-left: 5px;
+  border: 1px solid white;
+}
+.mybutton:hover {
+  background-color: rgb(101, 200, 101);
+}
+
+.container {
+  min-height: 500px;
+  max-width: 1025px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 150px;
+}
+.section {
+  background-color: white;
+  min-height: 100px;
+  min-width: 100%;
+}
+.col {
+  width: 30%;
+  margin-bottom: 30px;
+  background-color: grey;
+}
+.col:hover {
+  background-color: rgb(101, 200, 101);
+  border: 1px solid white;
+}
+.col p {
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  font-family: "Kanit", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sunflower", sans-serif;
+}
+/*.hide-desktop-only {
+  display: none;
+}*/
+
+.col img {
+  width: 100%;
+  height: auto;
+}
+p::first-line {
+  font-weight: bold;
+}
+
+/*TABLET VIEW*/
+
+@media (max-width: 784px) {
+  .col {
+    width: 45%;
+    margin-top: 20px;
+  }
+  .hide-desktop-only {
+    display: block;
+  }
+  header {
+    display: block;
+    text-align: center;
+  }
+  nav a {
+    margin-top: 5px;
+    display: block;
+  }
+  .mybutton {
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .col {
+    width: 45%;
+    margin-top: 20px;
+  }
+  .hide-desktop-only {
+    display: block;
+  }
+  header {
+    display: block;
+    text-align: center;
+  }
+  nav a {
+    margin-top: 5px;
+    display: block;
+  }
+  .mybutton {
+    margin-left: 0;
+  }
+}
+
+/*FOR MOBILE*/
+@media (max-width: 500px) {
+  .col {
+    width: 100%;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  header {
+    display: block;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+  }
+  .mybutton:active {
+    background-color: rgb(101, 200, 101);
+  }
+  .logo {
+    padding: 20px 0;
+  }
+  .mybutton {
+    margin-left: 0;
+  }
+}
