@@ -1,0 +1,13 @@
+.box {
+margin-right: auto 0;
+margin-left: auto 0;
+display: block;
+text-align: center;
+font-size: 50px;
+}
+
+/* #countLabel {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+} */
