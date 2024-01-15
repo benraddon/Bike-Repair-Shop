@@ -1,0 +1,89 @@
+body {
+background: grey;
+text-align: center;
+font-family: 'Kanit', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Sunflower', sans-serif;
+color: blue;
+}
+
+.intro {
+margin: 30px 0px;
+}
+
+#first {
+margin-top: 10px;
+color: black;
+}
+
+#second {
+color: aqua;
+}
+#third {
+color: purple;
+margin-top: 30px;
+}
+
+#enter {
+border: black solid 5px;
+padding: 5px 15px;
+border-radius: 3px;
+color: aqua;
+background-color: rgb(77, 77, 190);
+transition: all 0.75s ease;
+-webkit-transition: all 0.75s ease;
+-moz-transition: all 0.75s ease;
+-ms-transition: all 0.75s ease;
+-o-transition: all 0.75s ease;
+font-weight: normal;
+}
+#enter:hover {
+background-color: rgb(28, 8, 67);
+color: white;
+}
+li {
+list-style: none;
+padding: 10px 20px;
+color: #ffffff;
+text-transform: capitalize;
+font-weight: 600;
+border: 2px solid #025f70;
+border-radius: 5px;
+margin-bottom: 10px;
+background: #4eb9cd;
+transition: all 0.75s ease;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5 ease;
+}
+li:hover {
+background: white;
+}
+li > button {
+font-weight: normal;
+background: none;
+border: none;
+float: right;
+color: #025f70;
+font-weight: 800;
+}
+
+input {
+border-radius: 5px;
+min-width: 65%;
+padding: 5px;
+border: none;
+}
+
+.done {
+background-color: yellow;
+color: antiquewhite;
+}
+.delete {
+display: none;
+}

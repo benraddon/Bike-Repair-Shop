@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Orbitron:wght@500&family=Outfit:wght@100&family=Red+Hat+Display:wght@300&family=Roboto+Condensed:wght@500&family=Roboto:wght@300;400&family=Sunflower:wght@300&display=swap"
+rel="stylesheet" />
+<title>To do list</title>
+<link rel="stylesheet" href="style..css" />
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="intro col-12">
+<h1>What you need to do</h1>
+<div class="border1"></div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="helpText col-12">
+<p id="first">Enter your text into the box</p>
+<p id="second">Click the item to mark as completed</p>
+<p id="third">Click the X to remove</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-12">
+<input id="userInput" type="text" placeholder="New Item" maxlength="27" />
+<button id="enter"><i class="fas fa-pencil-alt"></i></button>
+</div>
+</div>
+
+<!-- Empty list -->
+
+<div class="row">
+<div class="listItems col-12">
+<ul class="col-12 offset-0 col-sm-8 offset-sm-2"></ul>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
