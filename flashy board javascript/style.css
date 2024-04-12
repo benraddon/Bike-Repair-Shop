@@ -1,0 +1,157 @@
+body {
+font-family: 'Protest Riot', sans-serif;
+font-size: 1em;
+font-style: normal;
+color: aqua;
+
+color: white;
+text-shadow: 10px 2px 15px #000000;
+
+background-color: #383dca;
+animation-name: change;
+animation-duration: 5s;
+}
+
+@keyframes change {
+0% {
+background-color: #27088e;
+}
+10% {
+background-color: aqua;
+}
+25% {
+background-color: #005fcb;
+}
+50% {
+background-color: #414040;
+}
+75% {
+background-color: cyan;
+}
+100% {
+background-color: #523ca0;
+}
+}
+
+#header {
+padding: 60px;
+text-align: center;
+background: #1abc9c;
+color: white;
+font-size: 2em;
+margin-top: 0px;
+}
+
+h1,
+p {
+cursor: pointer;
+}
+.grid-container {
+/* margin-top: 170px; */
+
+height: 150px;
+
+display: grid;
+gap: 35px;
+grid-template-columns: auto auto auto;
+/* background-color: #2196f3; */
+padding: 10px;
+}
+
+.grid-item {
+width: auto;
+height: 750px;
+background-color: rgba(111, 135, 225, 0.8);
+border: 3px solid rgb(0, 0, 0);
+padding: 20px;
+
+text-align: center;
+vertical-align: middle;
+line-height: 700px;
+
+justify-content: space-evenly;
+
+font-size: 5em;
+cursor: pointer;
+}
+
+#griditem1:hover {
+border-radius: 50%;
+border: 10px solid blue;
+/* color: white; */
+box-shadow: 10px 2px 15px #000000;
+}
+
+#griditem2:hover {
+border-radius: 50%;
+border: 10px rgb(255, 0, 0) solid;
+box-shadow: 10px 2px 15px #000000;
+}
+
+#griditem3:hover {
+border-radius: 50%;
+border: 10px solid yellow;
+box-shadow: 10px 2px 15px #000000;
+}
+#griditem51:hover {
+border-radius: 50%;
+border: 10px solid yellow;
+box-shadow: 10px 2px 15px #000000;
+}
+#griditem5:hover {
+border-radius: 50%;
+border: 10px solid whtie;
+box-shadow: 10px 2px 15px #000000;
+}
+#griditem6:hover {
+border-radius: 50%;
+border: 10px solid yellow;
+box-shadow: 10px 2px 15px #000000;
+}
+#griditem7:hover {
+border-radius: 50%;
+border: 10px solid yellow;
+box-shadow: 10px 2px 15px #000000;
+}
+#griditem8:hover {
+border-radius: 50%;
+border: 10px solid yellow;
+box-shadow: 10px 2px 15px #000000;
+}
+#griditem10:hover {
+border-radius: 50%;
+border: 10px solid yellow;
+box-shadow: 10px 2px 15px #000000;
+}
+#griditem11:hover {
+border-radius: 50%;
+border: 10px solid yellow;
+box-shadow: 10px 2px 15px #ffffff;
+background-color: black;
+}
+#griditem12:hover {
+border-radius: 50%;
+border: 10px solid yellow;
+box-shadow: 10px 2px 15px #ffffff;
+background-color: black;
+}
+#griditem13:hover {
+background-color: #000000;
+border-radius: 50%;
+border: 10px solid yellow;
+box-shadow: 10px 2px 15px #ffffff;
+}
+#griitem15:hover {
+border-radius: 50%;
+}
+#griditem16:hover {
+border-radius: 50%;
+}
+#griditem17:hover {
+border-radius: 50%;
+}
+@media (min-width: 600px) {
+.cards {
+grid-template-columns: repeat(2, 1fr);
+}
+}
